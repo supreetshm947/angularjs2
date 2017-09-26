@@ -36,9 +36,10 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                         }
                     ];
                 }
-                AppComponent.prototype.onClick = function (e) {
-                    console.log(e.target.innerHTML);
-                    this.name = e.target.innerHTML;
+                AppComponent.prototype.onClick = function (item, container) {
+                    console.log(item);
+                    this.name = item;
+                    container.style.backgroundColor = "#FECE4E";
                 };
                 AppComponent.prototype.addArtist = function (val) {
                     if (val != '')
@@ -50,7 +51,10 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'app',
-                        templateUrl: './partials/app.html'
+                        templateUrl: './partials/app.html',
+                        styleUrls: [
+                            './css/app.css'
+                        ]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

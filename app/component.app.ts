@@ -2,16 +2,20 @@ import {Component} from '@angular/core';
 
 @Component({
     selector : 'app',
-    templateUrl : './partials/app.html'
+    templateUrl : './partials/app.html',
+    styleUrls : [
+        './css/app.css'
+    ]
 })
 
 export class AppComponent {
     name : string;
     artists : any;
 
-    onClick(e){
-        console.log(e.target.innerHTML);
-        this.name = e.target.innerHTML;
+    onClick(item, container){
+        console.log(item);
+        this.name = item;
+        container.style.backgroundColor = "#FECE4E";
     }
 
     addArtist(val){
