@@ -1,0 +1,1 @@
+{"version":3,"file":"component.artist-detail.js","sourceRoot":"","sources":["component.artist-detail.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;YAWA;gBAAA;gBAAoC,CAAC;gBATrC;oBAAC,gBAAS,CAAC;wBACP,QAAQ,EAAG,eAAe;wBAC1B,WAAW,EAAG,+BAA+B;wBAC7C,SAAS,EAAG;4BACR,yBAAyB;yBAC5B;wBACD,MAAM,EAAG,CAAC,QAAQ,CAAC;qBACtB,CAAC;;yCAAA;gBAEkC,4BAAC;YAAD,CAAC,AAArC,IAAqC;YAArC,yDAAqC,CAAA"}
